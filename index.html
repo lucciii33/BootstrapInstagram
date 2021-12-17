@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+                <div class="d-flex">
+
+                    <i class="bi bi-instagram"></i>
+                    <h5 class="float-left">Instagram</h5>
+                </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Create a Post
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Create a Post</h5>
+                                <div class="p-1">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <i class="bi bi-camera-fill"></i>
+                                </div>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                            </div>
+                                
+                                    
+                                
+                            <div class="modal-body">
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Delete</button>
+                                <button type="button" class="btn btn-success">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <ul class="nav nav-pills  justify-content-center m-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i
+                    class="bi bi-grid-3x2-gap-fill"></i></button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i
+                    class="bi bi-file-post-fill"></i></button>
+        </li>
+
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="container">
+
+                <div class="row g-1 pb-1">
+                    <div class="col-4 ">
+                        <img src="https://www.wallpapertip.com/wmimgs/29-294432_4k-wallpaper-minimalist.jpg"
+                            class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-4 ">
+                        <img src="https://eskipaper.com/images/cool-california-sunset-1.jpg" class="img-fluid"
+                            alt="...">
+                    </div>
+                    <div class="col-4 ">
+                        <img src="http://cdn.wallpapername.com/1280x960/20130412/nature%20peaceful%201280x960%20wallpaper_www.wallpapername.com_23.jpg"
+                            class="img-fluid" alt="...">
+                    </div>
+
+                </div>
+                <div class="row g-1 pb-1">
+                    <div class="col-4">
+                        <img src="https://www.arizona-leisure.com/gfx/gallery/koopsen/sedona-winter/Coffee%20Pot%20Rock%20from%20Airport%20Mesa%20Overlook.jpg"
+                            class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-4">
+                        <img src="https://4.bp.blogspot.com/-ud2bQXR82bY/T4e1yB6k6-I/AAAAAAAAClg/AMSeR5itwHs/s1600/Hdhut.blogspot.com+%25283%2529.jpg"
+                            class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-4">
+                        <img src="https://2.bp.blogspot.com/-yq5N_Mt2UZE/UOWUL1grxxI/AAAAAAAACSY/Ikm_7wyYIt4/s1600/beautiful+nature1.jpg"
+                            class="img-fluid" alt="...">
+                    </div>
+
+                </div>
+                <div class="row g-1">
+                    <div class="col-4">
+                        <img src="https://wallsdesk.com/wp-content/uploads/2018/04/Pictures-of-Hornbeam-1.jpg"
+                            class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-4">
+                        <img src="https://wallsdesk.com/wp-content/uploads/2016/08/Amsterdam-Background.jpg"
+                            class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-4">
+                        <img src="https://hddesktopwallpapers.in/wp-content/uploads/2015/11/sunflower-pictures.jpg"
+                            class="img-fluid" alt="...">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="">
+                        My first photo
+                    </div>
+                    <div class="">12/04</div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://wallsdesk.com/wp-content/uploads/2016/08/Amsterdam-Background.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <h5 class="card-title "> 10,000 likes</h5>
+                        <p class="card-text">Vacations were great, love this picture.</p>
+                        <div class="icon">
+
+                            <i class="bi bi-suit-heart"></i>
+                            <p class="help-block">coments...</p>
+                            <div class="lasticon">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
